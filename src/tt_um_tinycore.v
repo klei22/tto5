@@ -2,7 +2,7 @@
 `timescale 1ns / 1ps
 `default_nettype none
 
-module tt_tinycore #(parameter MAX_COUNT = 24'd10_000_000)(
+module tt_um_tinycore #(parameter MAX_COUNT = 24'd10_000_000)(
     input  wire [7:0] ui_in,    // Dedicated inputs
     output reg  [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Bidirectional Input path
